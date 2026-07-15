@@ -1,0 +1,30 @@
+TRANSACTION DATA ANALYSIS SUMMARY
+========================================
+
+Total transactions analyzed: 2,000
+Date range: 2025-01-01 to 2025-12-31
+Total value: $1,212,390.38
+Average transaction: $606.20
+
+Volume & value by category:
+                count        sum     mean
+category                                 
+Wire Transfer     167  366329.06  2193.59
+Payroll           241  269293.96  1117.40
+Retail            578  210838.79   364.77
+ATM Withdrawal    406  142898.35   351.97
+Online Payment    338  121907.50   360.67
+Utilities         270  101122.72   374.53
+
+Transactions >= $10,000 (flagged for review): 0 (0.0% of all transactions)
+
+Flag rate by category:
+category
+ATM Withdrawal    0.0 %
+Online Payment    0.0 %
+Payroll           0.0 %
+Retail            0.0 %
+Utilities         0.0 %
+Wire Transfer     0.0 %
+
+Key finding: 'Wire Transfer' accounts for the highest total transaction value, while 'ATM Withdrawal' has the highest rate of high-value transactions flagged for review.
