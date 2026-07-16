@@ -1,5 +1,7 @@
 # Transaction Data Analysis
 
+🔗 **Live Demo:** [transaction-analysis report](https://apega-tech.github.io/transaction-analysis/) — the generated charts and summary, viewable directly
+
 An exploratory data analysis project examining transaction volume, value,
 and a simple high-value flagging rule across categories — the kind of
 pattern-spotting used in transaction monitoring and business intelligence.
@@ -20,7 +22,7 @@ customer, account, or transaction data.
 2. `analyze.py` reads that data and produces:
    - `transactions_by_month.png` — monthly transaction volume trend
    - `total_value_by_category.png` — total dollar value by category
-   - `flag_rate_by_category.png` — share of transactions over a $10,000
+   - `flag_rate_by_category.png` — share of transactions over a $2,000
      threshold by category (a simplified version of threshold-based
      transaction monitoring)
    - `summary.txt` — key stats and findings in plain text
@@ -43,4 +45,4 @@ analysis pipeline.
 ## Possible next steps
 - Pull in a real public dataset (e.g. from Kaggle) instead of synthetic data
 - Add a Jupyter notebook version with inline narrative
-- Build a small Flask dashboard to make the charts interactive
+- Build a small Flask dashboard to make the charts interactive and live
